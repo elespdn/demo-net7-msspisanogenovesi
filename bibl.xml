@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliografia </title>
+            <respStmt>
+               <resp>Creazione e codifica</resp>
+               <name>E.S.</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Net7</publisher>
+            <availability status="free" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/4.0">
+                  <p>
+                     Creative Commons Attribution 4.0 International (CC BY 4.0)
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc><p/></sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listBibl>
+            <bibl>
+               <author>F. Avril</author>
+               <author>M.Th. Gousset</author>
+               <author>C. Rabel</author>
+               <title>Manuscrits enluminés de la Bibliothèque Nationale. Manuscrits d’origine italienne, 2. XIIIe siècle</title>
+               <publisher>Bibliothèque Nationale</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1984">1984</date>
+            </bibl>
+            <bibl>
+               <author>G. Hasenohr</author>
+               <title level="a">Copistes italiens du Lancelot: le manuscrit fr. 354 de la Bibl. Nationale</title>
+               in
+               <title level="m">Lancelot-Lanzelet: Hier et aujourd'hui</title>
+               <editor>D. Buschinger</editor>
+               <editor>M. Zink</editor>
+               <publisher>Reineke</publisher>
+               <pubPlace>Greifswald</pubPlace>
+               <date when="1995">1995</date>
+               <biblScope unit="page">219-226</biblScope>
+            </bibl>
+            <bibl>
+               <author>D. Delcorno Branca</author>
+               <title>Tristano e Lancillotto in Italia</title>
+               <publisher>Viella</publisher>
+               <pubPlace>Roma</pubPlace>
+               <date when="1998">1998</date>
+            </bibl>
+         </listBibl>
+      </body>
+  </text>
+</TEI>

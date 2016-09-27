@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Scheda del manoscritto BnF fr. 16998</title>
+            <respStmt>
+               <resp>Creazione scheda e codifica TEI</resp>
+               <name>E.S.</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Net7</publisher>
+            <availability status="free" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/4.0">
+                  <p>
+                     Creative Commons Attribution 4.0 International (CC BY 4.0)
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque Nationale de France</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Fonds français</collection>
+                  <idno>16998</idno>
+                  <msName>BnF f.fr. 16998</msName>
+               </msIdentifier>
+               <head>
+                  <title>Lancelot du Lac</title>
+                  <origPlace>Genova</origPlace>
+                  <origDate notBefore="1284" notAfter="1299">Fine XIII secolo</origDate>
+               </head>
+               <msContents>
+                  <msItem>
+                     <author>Anonimo</author>
+                     <title>Lancelot du Lac</title>
+                     <rubric>Cestui livre parole de monseignor Lancelot dou Lac coment il delivre monseignor Gauvain de la Doloreuse Tor des mains Karados le Grant</rubric>
+                     <incipit>En ceste partie dit li contes que quant Lancelot del Lac se fu partis de chies Morgain entre lui et la damoisele que ele li ot enchargies por lui fere compaignie si con ie ai contes ca en arrieres</incipit>
+                     <explicit>et li nains ne li respont mot [...] se trait vers la damoisele, si la prent par les espaules et la voloit baisier a force et en fu trop corroucie et trop</explicit>
+                     <filiation>Il manoscritto potrebbe essere composito e il primo tomo andato perduto: la prima carta presenta infatti una doppia numerazione, <quote>2</quote> e <quote>156</quote>, e in apertura si trova la frase <quote>si con ie vos ai contes ca en arrieres</quote> (c. <locus>2r</locus>)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="parch">
+                        <support>Membranaceo. Pergamena di media qualità, presenta cuciture originali (es. c. 22, c. 65)</support>
+                        <extent>
+                           <measure type="leavesCount" n="94">94 carte</measure> <!-- check -->
+                           <measure type="pageDimensions" n="390 x 265 mm">390 x 265 mm</measure>
+                        </extent>
+                        <foliation>Numerazione moderna 1-94</foliation>   
+                        <collation>
+                           <!-- VIII + VIII + VIII + VIII + VIII + ? + ? + VIII + VIII + VIII + VIII + VIII -->
+                           <catchwords>Richiami di fascicolo alle cc. <locus>9v</locus>, <locus>17v</locus>, <locus>25v</locus>, <locus>33v</locus>, <locus>41v</locus>, <locus>46v</locus>, <locus>55v</locus>, <locus>71v</locus>, <locus>79v</locus>, <locus>87v</locus></catchwords>
+                        </collation>
+                        <condition>Mutilo alla fine</condition>  <!-- check lacune -->
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="40">Due colonne di 40 ll.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2"> <!-- check terminologia -->
+                     <handNote xml:id="copista" scope="major">Il copista scrive l'intero testo</handNote>
+                     <handNote xml:id="didascalie" scope="minor">Le didascalie alle miniature sono scritte da una seconda mano, in inchiostro rosso</handNote>
+                  </handDesc>
+                  <scriptDesc> <!-- o si può sviluppare di più utilizzando <summary> per le considerazini generali e <scriptNote> per cose specifiche tipo le lettere, bisognerebbe trovare esempi in tal senso, chiedere a Hannah o P. Stokes. Qualche nota paleografica c'è nelle mie schede -->
+                     <scriptNote>Scrittura <term>gotica italiana</term></scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>Iniziale istoriata a c. <locus>2r</locus></decoNote>
+                     <decoNote>Iniziali ornate, su cinque righe, alle cc. <locus>13r</locus>, <locus>52r</locus>, <locus>71r</locus>, <locus>74r</locus>, <locus>85v</locus>, <locus>88v</locus></decoNote>
+                     <decoNote>Iniziali su due righe</decoNote>
+                     <decoNote>Miniature alle cc. <locus>1v</locus>, <locus>2v</locus>, <locus>3v</locus>, <locus>5r</locus>, <locus>6v</locus>, <locus>10r</locus>, <locus>12v</locus>, <locus>14r</locus>, <locus>20r</locus>, <locus>21v</locus>, <locus>23r</locus>, <locus>27r</locus>, <locus>27v</locus>, <locus>29r</locus>, <locus>31r</locus>, <locus>34r</locus>, <locus>36v</locus>, <locus>38r</locus>, <locus>42r</locus>, <locus>43r</locus>, <locus>48r</locus>, <locus>50r</locus>, <locus>51r</locus>, <locus>52v</locus>, <locus>58r</locus>, <locus>59v</locus>, <locus>63v</locus>, <locus>64v</locus>, <locus>66r</locus>, <locus>68v</locus>, <locus>72r</locus>, <locus>75v</locus>, <locus>77r</locus>, <locus>83r</locus>, <locus>89r</locus>, <locus>91r</locus>, <locus>92v</locus></decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Sul recto della prima carta (<locus>c. 1r</locus>), si legge <quote xml:lang="it">Guardate chome i buoni kavalieri sono ricordati per bone fate ; per ciò ongni omo doverebe questu di... da valere ed ese[re] buono</quote>; sotto alla scritta, compaiono alcuni scudi</p>
+                  </additions>
+               </physDesc>
+               <history>
+                  <origin notBefore="1284" notAfter="1299">Prodotto in un atelier genovese con la partecipazione di copisti pisani nell'ultimo quindicennio del XIII secolo</origin>
+               </history>
+               <additional>
+                  <surrogates>Facsimile digitale <ref target="http://gallica.bnf.fr/ark:/12148/btv1b6000415h">gallica.bnf.fr/ark:/12148/btv1b6000415h</ref>                    
+                  </surrogates>
+                  <listBibl>
+                     <bibl>
+                        <author>F. Avril</author><author>M.Th. Gousset</author><author>C. Rabel</author>
+                        <title>Manuscrits enluminés de la Bibliothèque Nationale. Manuscrits d’origine italienne, 2. XIIIe siècle</title>
+                        <publisher>Bibliothèque Nationale</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="1984">1984</date>
+                     </bibl>
+                     <bibl>
+                        <author>D. Delcorno Branca</author>
+                        <title>Tristano e Lancillotto in Italia</title>
+                        <publisher>Viella</publisher>
+                        <pubPlace>Roma</pubPlace>
+                        <date when="1998">1998</date>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p></p>
+      </body>
+  </text>
+</TEI>

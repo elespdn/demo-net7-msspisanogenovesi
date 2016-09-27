@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scheda del manoscritto BnF fr. 354</title>
+                <respStmt>
+                    <resp>Creazione scheda e codifica TEI</resp>
+                    <name>E.S.</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Net7</publisher>
+                <availability status="free" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        <p>
+                            Creative Commons Attribution 4.0 International (CC BY 4.0)
+                        </p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque Nationale de France</institution>
+                        <repository>Département des manuscrits</repository>
+                        <collection>Fonds français</collection>
+                        <idno>354</idno>
+                        <msName>BnF f.fr. 354</msName>
+                    </msIdentifier>
+                    <head>
+                        <title>Lancelot du Lac</title>
+                        <origPlace>Genova</origPlace>
+                        <origDate notBefore="1284" notAfter="1299">Fine XIII secolo</origDate>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <author>Anonimo</author>
+                            <title>Lancelot duc Lac</title>
+                            <incipit>atendoit iusque a XL iors por avoir la bataille de Lancelot et li noma en la quarentaine le ior et quant il seroit et lor revint li messages a sa dame et li conta ce qu'il avoit trove acoit et elle li dist tant tost a Lancelot</incipit>
+                            <explicit>Par Deu, damoisele, fait il, s'il fust tens de herbergier il ne vos convenist ia a prier que volentier le feisse et debonerement, mes il ne sera en piece nuit et ie ai mout</explicit>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="parch">
+                                <support>Membranaceo. Pergamena di media qualità, presenta fori originali (es. cc. <locus>37</locus>, <locus>55</locus>, <locus>66</locus>, <locus>70</locus>) e cuciture (es. cc. <locus>3</locus>, <locus>16</locus>, <locus>28</locus>, <locus>32</locus>)</support>
+                                <extent>
+                                    <measure type="leavesCount" n="81">81 carte</measure> <!-- check -->
+                                    <!-- <measure type="pageDimensions" n="??">?? mm</measure> -->
+                                </extent>
+                                <foliation>Numerazione moderna 1-81</foliation>   
+                                <collation>
+                                    <!-- VIII + VIII + VIII + VIII + VIII + ? + ? + VIII + VIII + VIII + VIII + VIII -->
+                                    <catchwords>Richiami di fascicolo alle cc. <locus></locus>, <locus>14v</locus>, <locus>20v</locus>, <locus>26v</locus>, <locus>34v</locus>, <locus>42v</locus>, <locus>50v</locus>, <locus>58v</locus>, <locus>66v</locus>, <locus>72v</locus></catchwords>
+                                </collation>
+                                <condition>Mutilo all'inizio e alla fine</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2" writtenLines="44">Due colonne di 44 ll.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1"> 
+                            <handNote xml:id="copista" scope="sole">Il copista scrive l'intero testo</handNote>
+                        </handDesc>
+                        <scriptDesc> <!-- o si può sviluppare di più utilizzando <summary> per le considerazini generali e <scriptNote> per cose specifiche tipo le lettere, bisognerebbe trovare esempi in tal senso, chiedere a Hannah o P. Stokes -->
+                            <scriptNote>Scrittura <term>gotica italiana</term></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>Iniziali ornate, su dieci o undici righe, alle cc. <locus>24r</locus>, <locus>26r</locus>, <locus>40v</locus>, <locus>70v</locus></decoNote>
+                            <decoNote>Iniziali filigranate, su due righe, alle cc. <locus>37v</locus>, <locus>54v</locus></decoNote>
+                            <decoNote>Iniziali su due righe</decoNote>
+                            <decoNote>Miniature alle cc. <locus>4v</locus>, <locus>6r</locus>, <locus>10v</locus>, <locus>14r</locus>, <locus>17r</locus>, <locus>20r</locus>, <locus>27v</locus>, <locus>29r</locus>, <locus>35r</locus>, <locus>41r</locus>, <locus>43r</locus>, <locus>46r</locus>, <locus>50v</locus>, <locus>52r</locus>, <locus>57r</locus>, <locus>61r</locus>, <locus>64r</locus>, <locus>68v</locus>, <locus>72r</locus></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Disegni a penna: ancora a c. <locus>6v</locus>; fiore a c. <locus>37v</locus>; busto con manicula a c. <locus>54v</locus>; testa a c. <locus>45r</locus> </p>
+                        </additions>
+                    </physDesc>
+                    <history>
+                        <origin notBefore="1284" notAfter="1299">Prodotto in un atelier genovese con la partecipazione di copisti pisani nell'ultimo quindicennio del XIII secolo</origin>
+                    </history>
+                    <additional>
+                        <surrogates>Facsimile digitale <ref target="http://gallica.bnf.fr/ark:/12148/btv1b52504852q">gallica.bnf.fr/ark:/12148/btv1b52504852q</ref>                    
+                        </surrogates>
+                        <listBibl>
+                            <bibl>
+                                <author>F. Avril</author><author>M.Th. Gousset</author><author>C. Rabel</author>
+                                <title>Manuscrits enluminés de la Bibliothèque Nationale. Manuscrits d’origine italienne, 2. XIIIe siècle</title>
+                                <publisher>Bibliothèque Nationale</publisher>
+                                <pubPlace>Paris</pubPlace>
+                                <date when="1984">1984</date>
+                            </bibl>
+                            <bibl>
+                                <author>G. Hasenohr</author>
+                                <title level="a">Copistes italiens du Lancelot: le manuscrit fr. 354 de la Bibl. Nationale</title>
+                                in
+                                <title level="m">Lancelot-Lanzelet: Hier et aujourd'hui</title>
+                                <editor>D. Buschinger</editor>
+                                <editor>M. Zink</editor>
+                                <publisher>Reineke</publisher>
+                                <pubPlace>Greifswald</pubPlace>
+                                <date when="1995">1995</date>
+                                <biblScope unit="page">219-226</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p></p>
+        </body>
+    </text>
+</TEI>
