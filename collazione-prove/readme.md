@@ -1,5 +1,8 @@
 In questa cartella ci sono prove di collazione, fatte con [CollateX](http://collatex.net/).
 
+Per avere un'idea, vedi qui
+*collazione-plain-text.ipynb*
+
 Sono utili per
 - vedere esempi di risultati della collazione
 - controllare la trascrizione
