@@ -112,10 +112,22 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="../auxiliary/listPerson.xml"/>
+            </particDesc>
+            <settingDesc>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="../auxiliary/listPlace.xml"/>
+            </settingDesc>
+        </profileDesc>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../auxiliary/encodingDesc.xml"/>
     </teiHeader>
     <text>
         <body>
-            <p></p>
+            <div>
+                <p><pb n="26v"/><cb n="a"/>tant qui vint a l'issue de la forest, si vint devant lui une maison de religion et il torne cele part por herbergier et quant il vint a la porte si troeve IIII des freres qui avoient chante conplie estoient venu au serain. Si saillent encontre lui por li descendre et dient qui bien soit il venus. Si le font entrer laienz et li demandent s'il a mangé et il dit que nenil et il firent maintenant metre la tauble, mes sil dit qui ne mangera devant qu'il ait esté au mostier qu'il n'i entra hui. Lors entre en l'iglise por orer et en ce qui se fu agenoilliez regarde a destre et voit unes prunez trop richement dorees a floretes d'or et as oisiaus et a bestes et dedens avoit V chevalier armez, les haumes as testes et l'espee en sa mains aus aprestes de defendre, si com les vousist assaillir. De ce se mervoille mout Lancelot, si se drece erraument et voit cele part, si salue le chevaliers et il dient que bien soit il venuz. Et il entre dedens les prunes par un guichet et esgardes les prunes qui tant sont riches qu'il ne cuide mie que nus rois les peust eslegier. Puis vit deles les chevaliers une tumbe la plus riche qu'il onques eust veuez, car elle iert tote d'or fin a pieres precieousez qui plus valoient de I grant reaume. Si la toube fu de grant biauté niant ne monte la bonté envers la richese dont ele estoient e ovec ce estoit la greignor qu'il onques vit. Si se mervoille mout qui puet estre li prince qui dedens fu <cb n="b"/>mis. Il demande as chevaliers qu'il font illeques. <said who="#chrs">Sire, font il, nos guardons le cors qui en ceste tombe gist, qui ne soit porté de caienz. Si en somes V por li garder chascun ior, par nuit en i a V qui font autretel servise com nos faison le ior.</said><said who="#Lanc">E por coi, fait Lancelot, avez vos paor que il soit ostez?</said><said who="#chrs">Sire, font il, un des freres de caiens qui mout est proudome et de sainte vie nos dist n'a encore gueres que un chevaliers venroit ceste part qui a force l'osteroit e fors de ceste pais l'en feroit porter. E nos gens de ceste terre voudroient miaus morir qu'il fust remues d'entre nos. Por ce le gardons si com vos vees.</said><said who="#Lanc">Or me dites, fait Lancelot, ne fu cil mout riches princes a qui l'on fist si riche sepulture?</said><said who="#chrs">Sire, font il, hauz hom fu il et le plus preudom qui onques fust a son tens.</said><said who="#Lanc">Hai, Dex!, fait <persName ref="#Lanc">Lancelot</persName>, qui fu il?</said><said who="#chrs">Sire, font il, se vos conoisies letres, veir le poez, car ses nom est esscrit el chief de cele lame.</said> Lors vait Lancelot cele part, si regarde les letres qui dient: <q>Ci gist Galehout, li fils a la Iaiande, li sires de Lontaines Isles, qui por l'amor <persName ref="#Lanc">Lancelot</persName> morut</q>. Et quant il vit ce, si chai tos pasmes et iut grant piece a terre sanz mot dire. Et li chevaliers li corent relever, si se mervoilla<unclear>???</unclear> que ce puet estre. Et quant il revint si dist: <said who="#Lanc">Hai, las! Quel dolor e quel domage!</said>, et lors fiert l'un poing a l'autre et esracine son viare, si qu'il en fait le sanc saglir de toutes pars, si se prent as cheviaus et se fiert grant coup des poing en mi le vis et <pb n="27r"/><cb n="a"/>mi le pis et crie si durement qui n'i a selui cui tote pitié ne preigne. Si se paigne et maudit l'ore qu'il fu nez et dit: <said who="#Lanc">Ha, Dex! Quel domage et quel perte dou plus proudome de Rome qui morz est por le plus vil chevalier et por le plus mauves qi onques fust!</said></p>
+                <p>Tant fait <persName ref="#Lanc">Lancelot</persName> grant del que tuit cil del laienz le vienent regarder a mervoille</p>
+            </div>
         </body>
     </text>
 </TEI>

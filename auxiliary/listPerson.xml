@@ -8,11 +8,11 @@
         <persName>Galehaut</persName>
     </person>
     
-    <person xml:id="chl">
+    <person xml:id="chr">
         <persName>chevalier</persName>
     </person>
     
-    <person xml:id="chls">
+    <person xml:id="chrs">
         <persName>chevaliers</persName>
     </person>
     
@@ -37,7 +37,4 @@
         <persName>nain</persName>
     </person>
    
-   <listRelation>
-
-   </listRelation>
 </listPerson>
