@@ -1,0 +1,10 @@
+<encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+    <samplingDecl>
+        <p>In questa demo una porzione ridotta del testo è stata scelta per la trascrizione</p>
+    </samplingDecl>
+    <editorialDecl>
+        <p>La trascrizione è interpretativa: le parole sono separate in caso di scriptio continua, le
+            abbreviazioni vengono sciolte, sono introdotti accenti e dieresi, viene inserita la
+            punteggiatura moderna e le maiuscole. I numeri ordinali espressi in cifre romane sono uniformati al sistema classico: ad esempio, nel caso di lezione <q>III C et L</q> del manoscritto, la trascrizione registrerà <q>CCCL</q>.</p>
+    </editorialDecl>
+</encodingDesc>

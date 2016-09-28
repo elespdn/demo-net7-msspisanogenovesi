@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Porzione di testo del Roman de Lancelot in prosa, dal manoscritto BnF fr. 16998</title>
+                <respStmt>
+                    <resp>Trascrizione e codifica TEI</resp>
+                    <persName>E.S.</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Net7</publisher>
+                <availability status="free" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        <p>
+                            Creative Commons Attribution 4.0 International (CC BY 4.0)
+                        </p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque Nationale de France</institution>
+                        <repository>Département des manuscrits</repository>
+                        <collection>Fonds français</collection>
+                        <idno>16998</idno>
+                        <msName>BnF f.fr. 16998</msName>
+                    </msIdentifier>
+                    <head>
+                        <title>Lancelot du Lac</title>
+                        <origPlace>Genova</origPlace>
+                        <origDate notBefore="1284" notAfter="1299">Fine XIII secolo</origDate>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <author>Anonimo</author>
+                            <title>Lancelot du Lac</title>
+                            <rubric>Cestui livre parole de monseignor <persName ref="#Lanc">Lancelot dou Lac</persName> coment il delivre monseignor <persName ref="#Gav">Gauvain</persName> de la <placeName ref="#Dol-Tor">Doloreuse Tor</placeName> des mains <persName ref="#Kar">Karados le Grant</persName></rubric>
+                            <incipit>En ceste partie dit li contes que quant <persName ref="#Lanc">Lancelot del Lac</persName> se fu partis de chies <persName ref="Morg">Morgain</persName> entre lui et la <persName ref="#damoisele-Morg">damoisele</persName> que ele li ot enchargiés por lui fere compaignie si con ie ai contés ca en arrieres</incipit>
+                            <explicit>et li <persName ref="#nain">nains</persName> ne li respont mot [...] se trait vers la damoisele, si la prent par les espaules et la voloit baisier a force et en fu trop corroucie et trop</explicit>
+                            <filiation>Il manoscritto potrebbe essere composito e il primo tomo andato perduto: la prima carta presenta infatti una doppia numerazione, <quote>2</quote> e <quote>156</quote>, e in apertura si trova la frase <quote>si con ie vos ai contes ca en arrieres</quote> (c. <locus>2r</locus>)</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="parch">
+                                <support>Membranaceo. Pergamena di media qualità, presenta cuciture originali (es. c. 22, c. 65)</support>
+                                <extent>
+                                    <measure type="leavesCount" n="94">94 carte</measure> <!-- check -->
+                                    <measure type="pageDimensions" n="390 x 265 mm">390 x 265 mm</measure>
+                                </extent>
+                                <foliation>Numerazione moderna 1-94</foliation>   
+                                <collation>
+                                    <!-- VIII + VIII + VIII + VIII + VIII + ? + ? + VIII + VIII + VIII + VIII + VIII -->
+                                    <catchwords>Richiami di fascicolo alle cc. <locus>9v</locus>, <locus>17v</locus>, <locus>25v</locus>, <locus>33v</locus>, <locus>41v</locus>, <locus>46v</locus>, <locus>55v</locus>, <locus>71v</locus>, <locus>79v</locus>, <locus>87v</locus></catchwords>
+                                </collation>
+                                <condition>Mutilo alla fine</condition>  <!-- check lacune -->
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2" writtenLines="40">Due colonne di 40 ll.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="2"> <!-- check terminologia -->
+                            <handNote xml:id="copista" scope="major">Il copista scrive l'intero testo</handNote>
+                            <handNote xml:id="didascalie" scope="minor">Le didascalie alle miniature sono scritte da una seconda mano, in inchiostro rosso</handNote>
+                        </handDesc>
+                        <scriptDesc> <!-- o si può sviluppare di più utilizzando <summary> per le considerazini generali e <scriptNote> per cose specifiche tipo le lettere, bisognerebbe trovare esempi in tal senso, chiedere a Hannah o P. Stokes. Qualche nota paleografica c'è nelle mie schede -->
+                            <scriptNote>Scrittura <term>gotica italiana</term></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>Iniziale istoriata a c. <locus>2r</locus></decoNote>
+                            <decoNote>Iniziali ornate, su cinque righe, alle cc. <locus>13r</locus>, <locus>52r</locus>, <locus>71r</locus>, <locus>74r</locus>, <locus>85v</locus>, <locus>88v</locus></decoNote>
+                            <decoNote>Iniziali su due righe</decoNote>
+                            <decoNote>Miniature alle cc. <locus>1v</locus>, <locus>2v</locus>, <locus>3v</locus>, <locus>5r</locus>, <locus>6v</locus>, <locus>10r</locus>, <locus>12v</locus>, <locus>14r</locus>, <locus>20r</locus>, <locus>21v</locus>, <locus>23r</locus>, <locus>27r</locus>, <locus>27v</locus>, <locus>29r</locus>, <locus>31r</locus>, <locus>34r</locus>, <locus>36v</locus>, <locus>38r</locus>, <locus>42r</locus>, <locus>43r</locus>, <locus>48r</locus>, <locus>50r</locus>, <locus>51r</locus>, <locus>52v</locus>, <locus>58r</locus>, <locus>59v</locus>, <locus>63v</locus>, <locus>64v</locus>, <locus>66r</locus>, <locus>68v</locus>, <locus>72r</locus>, <locus>75v</locus>, <locus>77r</locus>, <locus>83r</locus>, <locus>89r</locus>, <locus>91r</locus>, <locus>92v</locus></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Sul recto della prima carta (<locus>c. 1r</locus>), si legge <quote xml:lang="it">Guardate chome i buoni kavalieri sono ricordati per bone fate ; per ciò ongni omo doverebe questu di... da valere ed ese[re] buono</quote>; sotto alla scritta, compaiono alcuni scudi</p>
+                        </additions>
+                    </physDesc>
+                    <history>
+                        <origin notBefore="1284" notAfter="1299">Prodotto in un atelier genovese con la partecipazione di copisti pisani nell'ultimo quindicennio del XIII secolo</origin>
+                    </history>
+                    <additional>
+                        <surrogates>Facsimile digitale <ref target="http://gallica.bnf.fr/ark:/12148/btv1b6000415h">gallica.bnf.fr/ark:/12148/btv1b6000415h</ref>                    
+                        </surrogates>
+                        <listBibl>
+                            <bibl>
+                                <author>F. Avril</author><author>M.Th. Gousset</author><author>C. Rabel</author>
+                                <title>Manuscrits enluminés de la Bibliothèque Nationale. Manuscrits d’origine italienne, 2. XIIIe siècle</title>
+                                <publisher>Bibliothèque Nationale</publisher>
+                                <pubPlace>Paris</pubPlace>
+                                <date when="1984">1984</date>
+                            </bibl>
+                            <bibl>
+                                <author>D. Delcorno Branca</author>
+                                <title>Tristano e Lancillotto in Italia</title>
+                                <publisher>Viella</publisher>
+                                <pubPlace>Roma</pubPlace>
+                                <date when="1998">1998</date>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="../auxiliary/listPerson.xml"/>
+            </particDesc>
+            <settingDesc>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="../auxiliary/listPlace.xml"/>
+            </settingDesc>
+        </profileDesc>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../auxiliary/encodingDesc.xml"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Et il chevauche tant qu'il vint a l'issue de la forest, si vit devant lui une maison de religion. Il torne cele part por herbergier et quant il vint a la porte si trouve IIII des freres qui avoient chante complie que estoient venu au serein. Si ssaillent encontre lui descendre et dient que bien soit il venus. Si le font entrer leens et li demandent s'il a mangié et il dit que nenil et il font maintenant metre la table, mes il dit qu'il ne mangera devant qu'il ait esté au mostier, car il n'i entre hui. Lors entre en l'yglice por orer et en ce qu'il se fu aienoillés por orer, si regarde et voit unes proines trop richement ouvree a floretes d'or et a oisiaux et a bestes et dedens avoit V chevaliers armés, les hyaumes es testes, les espees es mains aprestés de defendre <cb n="b"/>si com hom les vouxist assaillir. De ce se mervoille mult <persName ref="#Lanc">Lancelot</persName>, si sse drece erraument et vet celle part et salue les chevaliers et il dient que bien soit il venus. Et il entre dedens les proines par un guichet et esgarde les proines qui tant sont riches qu'il ne cuide que un rois les peust eslegier. Puis vit deles les chevalier une tombe la plus riche qu'il eust onques veue, car ele iert tote d'or fin a pierres precieuses que plus valoient d'un roiaume et se la tombe fu de grant biauté noiant ne monte la bonté envers la richesce dont elle estoit et si estoit la greignor qu'il onques eust veue. Si sse merveille mout qui pooit estre li prince qui dedens i fu mis. Il demande as chevaliers qu'il font iluec. <said who="chevaliers">Sire, font il, nos gardons le cors qui ci gist en ceste tombe, qu'il ne soit portes de ceens. Si en somes V por lui garder chascun ior et par nuit en i a autres V qui ce meismes services que nos facons le ior. </said><said who="#Lanc">Et por quoi, fet <persName ref="#Lanc">Lancelot</persName>, aves vos donc poor qu'il n'en soit hostés?</said><said who="chevaliers">Sire, font il, oil. Car un des freres de ceens qui mult est prudom et de sainte vie nos dit n'a encor gaires que un chevalier vendroit ceste part qui a force l'en hosteroit et fors de cest pais l'en feroit porter. Et nos iens de cest pais voudrions miaux morir qu'il fust remues d'entre nos. Et por ce le gardons nos einsint com vos vees, car li preudom dit que <pb n="75"/><cb n="b"/>li chevalier ne demorroit mie qu'il ne venist.</said><said who="#Lanc">Or me dites, fet <persName ref="#Lanc">Lancelot</persName>, ne fu il mult haut prince a cui l'en fist si riche tombe?</said><said who="chevaliers">Sire, font il, haut hom fu il voirement et le plus preudom qui onques fust a son tens.</said><said who="#Lanc">Ha, Diex!, fet <persName ref="#Lanc">Lancelot</persName>, qui fu il donques?</said><said who="chevaliers">Sire, font il, se vos conoissies l'eentres veoir le poes, car ses nom est escript el chief de cele lame.</said> Lors vait <persName ref="#Lanc">Lancelot</persName> cele part, si regarde les lettrez qui dient: <q>Ci gist <persName ref="Gal">Galehout</persName>, li fils a la Iaiande, li sires des Lontainez Ylles, qui por l'amor Lancelot moruit</q>. Et quant il vit ce, si chei tos pasmes et iut grant piece a terre sans mot dire. Et li chevaliers le corrent relever, si sse merveillent mult que il puet estre. Et quant il revint en soir, si dit: <said>Ha, las! Quel dolor et quel doumaie!</said>, et lors fiert l'un poing en l'autre et esgratine son viaire, si qu'il en fet le sanc saillir de totes pars. Si sse prent as chevoux et se fiert grans cox des poins enmi le vis et enmi le pis et crie si durement qu'il n'i a celui a cui tote pitié n'en preigne. Si sse laidenge com maudit l'eure qu'il fu nes et dit: <said>Ha, Diex! Quel perte et quel doumaie dou plus preudome dou monde qui mors est por le plus vil chevalie et por le plus mauveis qui onques fust!</said></p>
+                <p>Tant fet <persName ref="#Lanc">Lancelot</persName> grant duel</p>
+            </div>
+        </body>
+    </text>
+</TEI>

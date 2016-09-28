@@ -1,0 +1,43 @@
+<listPerson xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <person xml:id="Lanc">
+        <persName>Lancelot</persName>
+    </person>
+    
+    <person xml:id="Gal">
+        <persName>Galehaut</persName>
+    </person>
+    
+    <person xml:id="chl">
+        <persName>chevalier</persName>
+    </person>
+    
+    <person xml:id="chls">
+        <persName>chevaliers</persName>
+    </person>
+    
+    <person xml:id="Gav">
+        <persName>Gauvain</persName>
+    </person>
+    
+    <person xml:id="Kar">
+        <persName>Karados</persName>
+    </person>
+    
+    <person xml:id="Morg">
+        <persName>Morgain</persName>
+    </person>
+    
+    <person xml:id="damoisele-Morg">
+        <persName>damoisele</persName>
+        <note>Une des damoiseles de Morgain</note>
+    </person>
+    
+    <person xml:id="nain">
+        <persName>nain</persName>
+    </person>
+   
+   <listRelation>
+
+   </listRelation>
+</listPerson>
