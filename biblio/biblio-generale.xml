@@ -32,7 +32,7 @@
                <author>F. Avril</author>
                <author>M.Th. Gousset</author>
                <author>C. Rabel</author>
-               <title>Manuscrits enluminés de la Bibliothèque Nationale. Manuscrits d’origine italienne, 2. XIIIe siècle</title>
+               <title level="m">Manuscrits enluminés de la Bibliothèque Nationale. Manuscrits d’origine italienne, 2. XIIIe siècle</title>
                <publisher>Bibliothèque Nationale</publisher>
                <pubPlace>Paris</pubPlace>
                <date when="1984">1984</date>
@@ -40,7 +40,6 @@
             <bibl>
                <author>G. Hasenohr</author>
                <title level="a">Copistes italiens du Lancelot: le manuscrit fr. 354 de la Bibl. Nationale</title>
-               in
                <title level="m">Lancelot-Lanzelet: Hier et aujourd'hui</title>
                <editor>D. Buschinger</editor>
                <editor>M. Zink</editor>
@@ -51,7 +50,7 @@
             </bibl>
             <bibl>
                <author>D. Delcorno Branca</author>
-               <title>Tristano e Lancillotto in Italia</title>
+               <title level="m">Tristano e Lancillotto in Italia</title>
                <publisher>Viella</publisher>
                <pubPlace>Roma</pubPlace>
                <date when="1998">1998</date>
