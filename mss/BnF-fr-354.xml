@@ -72,10 +72,9 @@
                             <scriptNote>Scrittura <term>gotica italiana</term></scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>Iniziali ornate, su dieci o undici righe, alle cc. <locus>24r</locus>, <locus>26r</locus>, <locus>40v</locus>, <locus>70v</locus></decoNote>
-                            <decoNote>Iniziali filigranate, su due righe, alle cc. <locus>37v</locus>, <locus>54v</locus></decoNote>
-                            <decoNote>Iniziali su due righe</decoNote>
-                            <decoNote>Miniature alle cc. <locus>4v</locus>, <locus>6r</locus>, <locus>10v</locus>, <locus>14r</locus>, <locus>17r</locus>, <locus>20r</locus>, <locus>27v</locus>, <locus>29r</locus>, <locus>35r</locus>, <locus>41r</locus>, <locus>43r</locus>, <locus>46r</locus>, <locus>50v</locus>, <locus>52r</locus>, <locus>57r</locus>, <locus>61r</locus>, <locus>64r</locus>, <locus>68v</locus>, <locus>72r</locus></decoNote>
+                            <decoNote type="ornata">Iniziali ornate, su dieci o undici righe, alle cc. <locus>24r</locus>, <locus>26r</locus>, <locus>40v</locus>, <locus>70v</locus></decoNote>
+                            <decoNote type="filigranata">Iniziali filigranate, su due righe, alle cc. <locus>37v</locus>, <locus>54v</locus></decoNote>
+                            <decoNote type="miniatura">Miniature alle cc. <locus>4v</locus>, <locus>6r</locus>, <locus>10v</locus>, <locus>14r</locus>, <locus>17r</locus>, <locus>20r</locus>, <locus>27v</locus>, <locus>29r</locus>, <locus>35r</locus>, <locus>41r</locus>, <locus>43r</locus>, <locus>46r</locus>, <locus>50v</locus>, <locus>52r</locus>, <locus>57r</locus>, <locus>61r</locus>, <locus>64r</locus>, <locus>68v</locus>, <locus>72r</locus></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Disegni a penna: ancora a c. <locus>6v</locus>; fiore a c. <locus>37v</locus>; busto con manicula a c. <locus>54v</locus>; testa a c. <locus>45r</locus> </p>
@@ -88,14 +87,14 @@
                         <surrogates>Facsimile digitale <ref target="http://gallica.bnf.fr/ark:/12148/btv1b52504852q">gallica.bnf.fr/ark:/12148/btv1b52504852q</ref>                    
                         </surrogates>
                         <listBibl>
-                            <bibl>
+                            <bibl xml:id="Avril1">
                                 <author>F. Avril</author><author>M.Th. Gousset</author><author>C. Rabel</author>
                                 <title>Manuscrits enluminés de la Bibliothèque Nationale. Manuscrits d’origine italienne, 2. XIIIe siècle</title>
                                 <publisher>Bibliothèque Nationale</publisher>
                                 <pubPlace>Paris</pubPlace>
                                 <date when="1984">1984</date>
                             </bibl>
-                            <bibl>
+                            <bibl xml:id="Hasenohr1">
                                 <author>G. Hasenohr</author>
                                 <title level="a">Copistes italiens du Lancelot: le manuscrit fr. 354 de la Bibl. Nationale</title>
                                 in

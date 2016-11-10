@@ -75,10 +75,9 @@
                             <scriptNote>Scrittura <term>gotica italiana</term></scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>Iniziale istoriata a c. <locus>2r</locus></decoNote>
-                            <decoNote>Iniziali ornate, su cinque righe, alle cc. <locus>13r</locus>, <locus>52r</locus>, <locus>71r</locus>, <locus>74r</locus>, <locus>85v</locus>, <locus>88v</locus></decoNote>
-                            <decoNote>Iniziali su due righe</decoNote>
-                            <decoNote>Miniature alle cc. <locus>1v</locus>, <locus>2v</locus>, <locus>3v</locus>, <locus>5r</locus>, <locus>6v</locus>, <locus>10r</locus>, <locus>12v</locus>, <locus>14r</locus>, <locus>20r</locus>, <locus>21v</locus>, <locus>23r</locus>, <locus>27r</locus>, <locus>27v</locus>, <locus>29r</locus>, <locus>31r</locus>, <locus>34r</locus>, <locus>36v</locus>, <locus>38r</locus>, <locus>42r</locus>, <locus>43r</locus>, <locus>48r</locus>, <locus>50r</locus>, <locus>51r</locus>, <locus>52v</locus>, <locus>58r</locus>, <locus>59v</locus>, <locus>63v</locus>, <locus>64v</locus>, <locus>66r</locus>, <locus>68v</locus>, <locus>72r</locus>, <locus>75v</locus>, <locus>77r</locus>, <locus>83r</locus>, <locus>89r</locus>, <locus>91r</locus>, <locus>92v</locus></decoNote>
+                            <decoNote type="istoriata">Iniziale istoriata a c. <locus>2r</locus></decoNote>
+                            <decoNote type="ornata">Iniziali ornate, su cinque righe, alle cc. <locus>13r</locus>, <locus>52r</locus>, <locus>71r</locus>, <locus>74r</locus>, <locus>85v</locus>, <locus>88v</locus></decoNote>
+                            <decoNote type="miniatura">Miniature alle cc. <locus>1v</locus>, <locus>2v</locus>, <locus>3v</locus>, <locus>5r</locus>, <locus>6v</locus>, <locus>10r</locus>, <locus>12v</locus>, <locus>14r</locus>, <locus>20r</locus>, <locus>21v</locus>, <locus>23r</locus>, <locus>27r</locus>, <locus>27v</locus>, <locus>29r</locus>, <locus>31r</locus>, <locus>34r</locus>, <locus>36v</locus>, <locus>38r</locus>, <locus>42r</locus>, <locus>43r</locus>, <locus>48r</locus>, <locus>50r</locus>, <locus>51r</locus>, <locus>52v</locus>, <locus>58r</locus>, <locus>59v</locus>, <locus>63v</locus>, <locus>64v</locus>, <locus>66r</locus>, <locus>68v</locus>, <locus>72r</locus>, <locus>75v</locus>, <locus>77r</locus>, <locus>83r</locus>, <locus>89r</locus>, <locus>91r</locus>, <locus>92v</locus></decoNote>
                         </decoDesc>
                         <additions>
                             <p>Sul recto della prima carta (<locus>c. 1r</locus>), si legge <quote xml:lang="it">Guardate chome i buoni kavalieri sono ricordati per bone fate ; per ciò ongni omo doverebe questu di... da valere ed ese[re] buono</quote>; sotto alla scritta, compaiono alcuni scudi</p>
@@ -91,14 +90,14 @@
                         <surrogates>Facsimile digitale <ref target="http://gallica.bnf.fr/ark:/12148/btv1b6000415h">gallica.bnf.fr/ark:/12148/btv1b6000415h</ref>                    
                         </surrogates>
                         <listBibl>
-                            <bibl>
+                            <bibl xml:id="Avril1">
                                 <author>F. Avril</author><author>M.Th. Gousset</author><author>C. Rabel</author>
                                 <title>Manuscrits enluminés de la Bibliothèque Nationale. Manuscrits d’origine italienne, 2. XIIIe siècle</title>
                                 <publisher>Bibliothèque Nationale</publisher>
                                 <pubPlace>Paris</pubPlace>
                                 <date when="1984">1984</date>
                             </bibl>
-                            <bibl>
+                            <bibl xml:id="Delcorno1">
                                 <author>D. Delcorno Branca</author>
                                 <title>Tristano e Lancillotto in Italia</title>
                                 <publisher>Viella</publisher>
