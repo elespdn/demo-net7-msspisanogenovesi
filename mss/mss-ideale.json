@@ -1,0 +1,41 @@
+{"ms": [
+    {
+        "respStmts": {
+            "resp": "Creazione scheda e codifica TEI",
+            "respName": "E.S."
+        },
+        "publicationStmt": {
+            "publisher": "Net7",
+            "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        "msIdentifier": {
+            "country": "France",
+            "settlement": "Paris",
+            "institution": "Bibliothèque Nationale de France"
+        },
+        "msItem": [
+            {
+                "author": "an",
+                "title": "Lancelot",
+                "incipit": "blablca"
+            },
+            {
+                "author": "sergio",
+                "title": "romanina",
+                "incipit": "bebebe"
+            }
+        ]
+    },
+    {
+        "resp": "Creazione scheda e codifica TEI",
+        "respName": "E.S.",
+        "publisher": "Net7",
+        "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "msIdentifier": {
+            "country": "France",
+            "settlement": "Paris",
+            "institution": "Bibliothèque Nationale de France"
+        }
+    }
+]}

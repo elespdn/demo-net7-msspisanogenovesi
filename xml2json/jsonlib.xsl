@@ -17,7 +17,7 @@
         <xsl:param name="string"/>
         <xsl:variable name="dq">"</xsl:variable>
         <xsl:value-of select="concat($dq,$label,$dq,':',tei:jsonValue($content,$string))"/>
-        <!--  cambiato per metterlo in conf.js Muruca    <xsl:value-of select="concat($label,':',tei:jsonValue($content,$string))"/>    -->
+        <!--  cambiare per metterlo in conf.js Muruca    <xsl:value-of select="concat($label,':',tei:jsonValue($content,$string))"/>    -->
     </xsl:function>
     <!--
  JSON value. Second parameter is boolean to say whether
@@ -60,7 +60,7 @@
             <xsl:value-of select="($strings)" separator=","/>
         </xsl:variable>
         <xsl:value-of select="concat($dq,$label,$dq,':','[',$r,']')"/>
-        <!--  cambiato per metterlo in conf.js Muruca  <xsl:value-of select="concat($label,':','[',$r,']')"/>  -->
+        <!--  cambiare per metterlo in conf.js Muruca  <xsl:value-of select="concat($label,':','[',$r,']')"/>  -->
     </xsl:function>
     <!--
  calculate an XPATH to take us from root of doc to where we are

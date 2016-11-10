@@ -49,7 +49,7 @@
                         <xsl:choose>
                             <xsl:when test=".[editor[1] and editor[2]]">
                                 <xsl:value-of
-                                    select="tei:json('editor',tei:jsonString(concat(editor[1],', ',editor[2])),true())"
+                                    select="tei:json('editor',tei:jsonString(concat(editor[1],' e ',editor[2])),true())"
                                 />
                             </xsl:when>
                             <xsl:otherwise>

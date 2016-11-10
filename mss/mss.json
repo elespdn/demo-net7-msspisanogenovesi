@@ -1,0 +1,84 @@
+{"ms": [
+    {
+        "msName": "BnF f.fr. 16998",
+        "respStmts": {
+            "resp": "Creazione scheda e codifica TEI",
+            "respName": "E.S."
+        },
+        "publicationStmt": {
+            "publisher": "Net7",
+            "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        "msId": {
+            "country": "France",
+            "settlement": "Paris",
+            "institution": "Bibliothèque Nationale de France",
+            "repository": "Département des manuscrits",
+            "collection": "Fonds français",
+            "idno": "16998",
+            "msName": "BnF f.fr. 16998"
+        },
+        "head": {
+            "title": "Lancelot du Lac",
+            "origPlace": "Genova",
+            "origDate": "Fine XIII secolo",
+            "origDate-notBefore": "1284",
+            "origDate-notAfter": "1299"
+        },
+        "msItem": [{
+            "author": "Anonimo",
+            "title": "Lancelot du Lac",
+            "incipit": "En ceste partie dit li contes que quant Lancelot del Lac se fu partis de chies Morgain entre lui et la damoisele que ele li ot enchargiés por lui fere compaignie si con ie ai contés ca en arrieres",
+            "explicit": "et li nains ne li respont mot [...] se trait vers la damoisele, si la prent par les espaules et la voloit baisier a force et en fu trop corroucie et trop"
+        }],
+        "objectDesc": {
+            "support": "Membranaceo. Pergamena di media qualità, presenta cuciture originali (es. c. 22, c. 65)",
+            "leavesCount": "94 carte",
+            "pageDimentions": "390 x 265 mm",
+            "foliation": "Numerazione moderna 1-94",
+            "condition": "Mutilo alla fine"
+        }
+    },
+    {
+        "msName": "BnF f.fr. 354",
+        "respStmts": {
+            "resp": "Creazione scheda e codifica TEI",
+            "respName": "E.S."
+        },
+        "publicationStmt": {
+            "publisher": "Net7",
+            "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        "msId": {
+            "country": "France",
+            "settlement": "Paris",
+            "institution": "Bibliothèque Nationale de France",
+            "repository": "Département des manuscrits",
+            "collection": "Fonds français",
+            "idno": "354",
+            "msName": "BnF f.fr. 354"
+        },
+        "head": {
+            "title": "Lancelot du Lac",
+            "origPlace": "Genova",
+            "origDate": "Fine XIII secolo",
+            "origDate-notBefore": "1284",
+            "origDate-notAfter": "1299"
+        },
+        "msItem": [{
+            "author": "Anonimo",
+            "title": "Lancelot duc Lac",
+            "incipit": "atendoit iusque a XL iors por avoir la bataille de Lancelot et li noma en la quarentaine le ior et quant il seroit et lor revint li messages a sa dame et li conta ce qu'il avoit trove acoit et elle li dist tant tost a Lancelot",
+            "explicit": "Par Deu, damoisele, fait il, s'il fust tens de herbergier il ne vos convenist ia a prier que volentier le feisse et debonerement, mes il ne sera en piece nuit et ie ai mout"
+        }],
+        "objectDesc": {
+            "support": "Membranaceo. Pergamena di media qualità, presenta fori originali (es. cc. 37, 55, 66, 70) e cuciture (es. cc. 3, 16, 28, 32)",
+            "leavesCount": "81 carte",
+            "pageDimentions": "???",
+            "foliation": "Numerazione moderna 1-81",
+            "condition": "Mutilo all'inizio e alla fine"
+        }
+    }
+]}

@@ -52,12 +52,12 @@
                                 <support>Membranaceo. Pergamena di media qualità, presenta fori originali (es. cc. <locus>37</locus>, <locus>55</locus>, <locus>66</locus>, <locus>70</locus>) e cuciture (es. cc. <locus>3</locus>, <locus>16</locus>, <locus>28</locus>, <locus>32</locus>)</support>
                                 <extent>
                                     <measure type="leavesCount" n="81">81 carte</measure> <!-- check -->
-                                    <!-- <measure type="pageDimensions" n="??">?? mm</measure> -->
+                                    <measure type="pageDimensions" n="?? x ?? mm">???</measure>
                                 </extent>
                                 <foliation>Numerazione moderna 1-81</foliation>   
                                 <collation>
                                     <!-- VIII + VIII + VIII + VIII + VIII + ? + ? + VIII + VIII + VIII + VIII + VIII -->
-                                    <catchwords>Richiami di fascicolo alle cc. <locus></locus>, <locus>14v</locus>, <locus>20v</locus>, <locus>26v</locus>, <locus>34v</locus>, <locus>42v</locus>, <locus>50v</locus>, <locus>58v</locus>, <locus>66v</locus>, <locus>72v</locus></catchwords>
+                                    <catchwords>Richiami di fascicolo alle cc. <locus>14v</locus>, <locus>20v</locus>, <locus>26v</locus>, <locus>34v</locus>, <locus>42v</locus>, <locus>50v</locus>, <locus>58v</locus>, <locus>66v</locus>, <locus>72v</locus></catchwords>
                                 </collation>
                                 <condition>Mutilo all'inizio e alla fine</condition>
                             </supportDesc>
