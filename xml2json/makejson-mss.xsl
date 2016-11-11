@@ -41,7 +41,7 @@
                             <xsl:value-of
                                 select="tei:json('Licence',tei:jsonString(.//licence/p),true())"/>
                             <xsl:value-of
-                                select="tei:json('Licence link',tei:jsonString(.//licence/@target),true())"
+                                select="tei:json('LicenceLink',tei:jsonString(.//licence/@target),true())"
                             />
                         </xsl:variable>
                         <xsl:variable name="publication">
